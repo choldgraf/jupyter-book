@@ -29,7 +29,6 @@ myst_enable_extensions = ['colon_fence', 'dollarmath', 'linkify', 'substitution'
 myst_url_schemes = ['mailto', 'http', 'https']
 nb_output_stderr = 'show'
 numfig = True
-panels_add_bootstrap_css = False
 pygments_style = 'sphinx'
 suppress_warnings = ['myst.domains']
 use_jupyterbook_latex = True

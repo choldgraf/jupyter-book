@@ -142,6 +142,7 @@ Many directives contain markdown inside, and if you'd like this markdown to rend
 For example:
 
 ````{example}
+
 :::{note}
 This text is **standard** _Markdown_
 :::
@@ -150,6 +151,7 @@ This text is **standard** _Markdown_
 Similar to normal directives, these admonitions can also be nested:
 
 `````{example}
+
 ::::{important}
 :::{note}
 This text is **standard** _Markdown_
@@ -170,12 +172,14 @@ For example, we'll insert one of the outputs that was glued into the book from t
 
 For example:
 
-````{example}
-```{note}
+`````{example}
+````{note}
 Here's my figure:
-{glue:figure}`sorted_means_fig`
+
+```{glue:figure} sorted_means_fig
 ```
 ````
+`````
 
 See [](content:code-outputs:glue) for more information on how to use `glue` to insert your outputs directly into your content.
 
